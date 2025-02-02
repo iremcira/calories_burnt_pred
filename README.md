@@ -76,14 +76,13 @@ print(f"Mean Absolute Error: {mae}")
 
 The model is based on **Gradient Boosting**, which minimizes the loss function iteratively. The loss function used is Mean Absolute Error (MAE):
 
-\[
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
+
+$$\left (  MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| \right)$$
 
 where:
-- \( y_i \) is the actual value,
-- \( \hat{y}_i \) is the predicted value,
-- \( n \) is the total number of observations.
+- $y_i$ is the actual value,
+- $\hat{y}_i$ is the predicted value,
+- $n$  is the total number of observations.
 
 ---
 
@@ -142,9 +141,7 @@ from sklearn.metrics import mean_absolute_error
 
 XGBRegressor, **Gradient Boosting** prensibine dayalıdır ve **Mean Absolute Error (MAE)** metriğini minimize etmeyi hedefler:
 
-\[
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
+$$\left (  MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| \right)$$
 
 ### 🚀 Olası Geliştirmeler
 ✅ **Daha fazla özellik eklenebilir (nabız, ortam sıcaklığı gibi).**  
@@ -167,4 +164,3 @@ python calories_prediction.py
 
 ---
 
-📌 **Bu proje hakkında daha fazla bilgi almak veya katkıda bulunmak için repo'yu ziyaret edin!** 🚀
